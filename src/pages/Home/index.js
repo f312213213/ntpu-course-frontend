@@ -14,8 +14,10 @@ const Home = () => {
     })
   }
   return (
-      <div onClick={openSnackBar}>
-        Home
+      <div className={'bg-custom-100 w-full h-screen'}>
+        <div onClick={openSnackBar}>
+          Home
+        </div>
       </div>
   );
 };
