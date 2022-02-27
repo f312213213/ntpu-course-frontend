@@ -4,9 +4,11 @@ import Home from "./Home";
 
 const AppRouter = () => {
   return (
-      <Routes>
-        <Route path={'/'} exact element={<Home />} />
-      </Routes>
+      <div className={'ml-16'}>
+        <Routes>
+            <Route path={'/'} exact element={<Home />} />
+        </Routes>
+      </div>
   );
 };
 
