@@ -2,9 +2,12 @@ import React from 'react';
 import NavItem from "./NavItem";
 
 const NavItems = () => {
+  const logout = () => {
+
+  }
   return (
-      <nav className={'fixed top-0 left-0 h-screen w-16 m-0 flex flex-col text-custom-100 shadow-lg justify-between z-50 bg-custom-900 transition'}>
-        <div>
+      <nav className={'fixed top-0 left-0 h-screen w-16 m-0 flex flex-col text-custom-100 shadow-lg justify-between items-center z-50 bg-custom-900 transition'}>
+        <div className={'flex flex-col items-center'}>
           <NavItem navText={'首頁'} url={'/'}/>
           <NavItem navText={'發布'} url={'/post'}/>
           <NavItem navText={'搜尋'} url={'/search'}/>
